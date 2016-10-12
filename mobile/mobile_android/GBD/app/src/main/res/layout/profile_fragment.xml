@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bandung.disiplin.MainActivity"
+    android:background="#f0f0f0">
+
+    <include layout="@layout/toolbar_color"
+        android:id="@+id/toolbar"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:id="@+id/material_drawer_account_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/material_drawer_account_header_height"
+            android:background="@mipmap/shirt"
+            android:layout_below="@+id/include3">
+
+            <com.mikepenz.materialdrawer.view.BezelImageView
+                android:id="@+id/material_drawer_account_header_current"
+                android:layout_width="@dimen/material_drawer_account_header_selected"
+                android:layout_height="@dimen/material_drawer_account_header_selected"
+                android:layout_above="@+id/material_drawer_account_header_text_section"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:elevation="2dp"
+                android:src="@mipmap/profile2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/material_drawer_account_header_current"
+                android:gravity="right">
+
+                <com.mikepenz.materialdrawer.view.BezelImageView
+                    android:id="@+id/material_drawer_account_header_small_first"
+                    android:layout_width="@dimen/material_drawer_account_header_secondary"
+                    android:layout_height="@dimen/material_drawer_account_header_secondary"
+                    android:layout_marginRight="@dimen/material_drawer_vertical_padding"
+                    android:clickable="true"
+                    android:elevation="2dp"
+                    android:src="@mipmap/profile2"
+                    android:visibility="gone" />
+
+                <com.mikepenz.materialdrawer.view.BezelImageView
+                    android:id="@+id/material_drawer_account_header_small_second"
+                    android:layout_width="@dimen/material_drawer_account_header_secondary"
+                    android:layout_height="@dimen/material_drawer_account_header_secondary"
+                    android:layout_marginRight="@dimen/material_drawer_vertical_padding"
+                    android:clickable="true"
+                    android:elevation="2dp"
+                    android:src="@mipmap/profile2"
+                    android:visibility="gone" />
+
+                <com.mikepenz.materialdrawer.view.BezelImageView
+                    android:id="@+id/material_drawer_account_header_small_third"
+                    android:layout_width="@dimen/material_drawer_account_header_secondary"
+                    android:layout_height="@dimen/material_drawer_account_header_secondary"
+                    android:layout_marginRight="@dimen/material_drawer_vertical_padding"
+                    android:clickable="true"
+                    android:elevation="2dp"
+                    android:src="@mipmap/profile2"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/material_drawer_account_header_text_section"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/material_drawer_padding"
+                android:layout_toLeftOf="@+id/material_drawer_account_header_text_switcher"
+                android:orientation="vertical"
+                android:paddingRight="56dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/material_drawer_account_header_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/material_drawer_vertical_padding"
+                    android:fontFamily="sans-serif-medium"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textSize="@dimen/material_drawer_account_header_text"
+                    android:textColor="#fff"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/material_drawer_account_header_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/material_drawer_vertical_padding"
+                    android:fontFamily="sans-serif"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:text="Edit Header"
+                    android:textSize="@dimen/material_drawer_account_header_text"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/material_drawer_account_header_text_switcher"
+                android:layout_width="@dimen/material_drawer_account_header_dropdown"
+                android:layout_height="@dimen/material_drawer_account_header_dropdown"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/material_drawer_account_header_dropdown_margin_bottom"
+                android:layout_marginRight="@dimen/material_drawer_vertical_padding" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:hint="Edit Nama"
+                android:text="Yogi Eka"
+                android:textColor="#333"
+                android:textSize="17sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                android:hint="Edit Email"
+                android:textSize="17sp"
+                android:text="yogieeka@gmail.com"
+                android:textColor="#333" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:hint="Edit Email"
+                android:textSize="17sp"
+                android:text="0891231412"
+                android:textColor="#333" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText4"
+                android:hint="Edit Email"
+                android:textSize="17sp"
+                android:text="Cirebon"
+                android:textColor="#333" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

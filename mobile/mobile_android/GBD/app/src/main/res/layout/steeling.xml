@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bandung.disiplin.MainActivity"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/toolbar_color"
+        android:id="@+id/toolbar_color"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout15"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PANGGILAN LUAR BIASA"
+            android:id="@+id/textView29"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_below="@+id/toolbar_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:id="@+id/image_broadcast"
+                android:src="@drawable/steeling_a" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:id="@+id/imageView21"
+                android:src="@mipmap/police_bg"
+                android:scaleType="centerCrop"
+                android:layout_below="@+id/toolbar_color"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hold button for cancel alarm"
+            android:id="@+id/text_view_cancel"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-light"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

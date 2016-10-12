@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">Go Bandung Disiplin</string>
+
+
+    <!--Navigation Drawer String-->
+    <string name="drawer_item_persistent_compact_header">PersistentHeader Drawer</string>
+    <string name="drawer_item_persistent_compact_header_desc">Smaller persistent account header</string>
+    <string name="drawer_item_compact_header">CompactHeader Drawer</string>
+    <string name="drawer_item_compact_header_desc">Smaller account header</string>
+    <string name="drawer_item_action_bar_drawer">ActionBar Drawer</string>
+    <string name="drawer_item_action_bar_drawer_desc">Shows how to use with an actionbar</string>
+    <string name="drawer_item_multi_drawer">Multi Drawer</string>
+    <string name="drawer_item_multi_drawer_desc">Left and Right side drawer</string>
+    <string name="drawer_item_non_translucent_status_drawer">NonTranslucentStatus Drawer</string>
+    <string name="drawer_item_non_translucent_status_drawer_desc">Drawer below statusBar</string>
+    <string name="drawer_item_advanced_drawer">Advanced Drawer</string>
+    <string name="drawer_item_advanced_drawer_desc">More advanced drawer features</string>
+    <string name="drawer_item_embedded_drawer">Embedded Drawer</string>
+    <string name="drawer_item_embedded_drawer_desc">Embed the drawer anywhere</string>
+    <string name="drawer_item_mini_drawer">MiniDrawer</string>
+    <string name="drawer_item_mini_drawer_desc">Always visible MiniDrawer</string>
+    <string name="drawer_item_fullscreen_drawer">FullScreen Drawer</string>
+    <string name="drawer_item_fullscreen_drawer_desc">Drawer in FullScreen activity</string>
+    <string name="drawer_item_custom_container_drawer">CustomContainer Drawer</string>
+    <string name="drawer_item_custom_container_drawer_desc">Drawer in different view hirachy</string>
+    <string name="drawer_item_menu_drawer">Menu Drawer</string>
+    <string name="drawer_item_menu_drawer_desc">Drawer from menu.xml</string>
+    <string name="drawer_item_fragment_drawer">Fragment Drawer</string>
+    <string name="drawer_item_fragment_drawer_desc">Use drawer within fragments</string>
+    <string name="drawer_item_collapsing_toolbar_drawer">CollapsingToolbar Drawer</string>
+    <string name="drawer_item_collapsing_toolbar_drawer_desc">Uses a CollapsingToolbarLayout</string>
+    <string name="drawer_item_crossfade_drawer_layout_drawer">CrossfadeDrawerLayout</string>
+    <string name="drawer_item_crossfade_drawer_layout_drawer_desc">2-Step Drawer behavior</string>
+
+    <string name="drawer_item_menu_drawer_item">Menu Drawer Item</string>
+    <string name="drawer_item_menu_drawer_item_desc">Sample menu item with overflow button</string>
+
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_free_play">Free Play</string>
+    <string name="drawer_item_custom">Custom</string>
+    <string name="drawer_item_section_header">Lainya</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_help">Help</string>
+    <string name="drawer_item_open_source">Open Source</string>
+    <string name="drawer_item_contact">Contact</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
+
+
+    <!-- Drawer Items -->
+    <string name="timeline">Home</string>
+    <string name="timeline_small">Menampilkan Event dan Promo</string>
+    <string name="lokasi">Lokasi Kita</string>
+    <string name="hot_p_small">Menampilkan Produk Terpopuler</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="facorite_small">Produk Favorite user</string>
+    <string name="favorite">Favorite</string>
+    <string name="produk_small">Produk Favorite user</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="profile_small">Menampilkan Produk Favorite user</string>
+    <string name="logout">About</string>
+
+
+    <string name="lorem">Lorem Ipsum Dolor Sit</string>
+    <string name="desc_here">Description here</string>
+    <string name="resto_name">Resto name</string>
+    <string name="resto_type">Resto type</string>
+    <string name="food_name">Food name</string>
+    <string name="name">Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_thumbnails">Thumbnails</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="image_desc">image_desc</string>
+    <string name="address">Address</string>
+    <string name="save">Save</string>
+    <string name="write">Write</string>
+    <string name="send">Send</string>
+    <string name="search">Search</string>
+    <string name="error">Error</string>
+    <string name="alert">Alert</string>
+    <string name="data_saved">Data successfully saved</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok_got_it">OK Got It</string>
+    <string name="edit">edit</string>
+    <string name="time">Time</string>
+    <string name="string_null" />
+    <string name="app_id">1027406327309606</string>
+    <string name="success">Success</string>
+    <string name="failed">Failed</string>
+    <string name="highlight">Satisfying People\'s Hunger for \n Life\'s Simple Pleasures</string>
+    <string name="highlight_1">Find Your Favorite Place</string>
+    <string name="highlight_2">Order Like Never Before</string>
+    <string name="highlight_3">Pay Seamlessly</string>
+    <string name="charged_credit_card">Your Credit Card Will Be Charged For This Transaction</string>
+    <string name="certainty">Your Credit Card Will Be Charged For This Transaction. Are you sure you want to continue?</string>
+    <string name="no_menu">This restaurant has not set the menu yet.</string>
+    <string name="need_a_payment">You need to add a payment card</string>
+    <string name="easy_and_safe">Easy and safe</string>
+    <string name="credit_card_display">**** **** **** %1$s</string>
+    <string name="new_update">Update available. Update now?</string>
+    <string name="available">Available</string>
+    <string name="not_available">Not available</string>
+    <string name="data_deleted">Data successfully deleted</string>
+    <string name="order_cancelled">Order successfully canceled</string>
+    <string name="order_resend">Order resend successful</string>
+
+    <!--Intro-->
+    <string name="signin">Sign In</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="connect_w_fb">Connect With Facebook</string>
+    <string name="watch_demo">Watch Demo</string>
+
+    <!--Signin-->
+    <string name="back">Back</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="or">Or</string>
+    <string name="progress_dialog_title">Authenticating</string>
+    <string name="progress_dialog_content">Please wait…</string>
+    <string name="login_failed">Please fill username and password to continue</string>
+    <string name="validate_voucher_failed">Please input a valid code</string>
+    <string name="validate_voucher_success">Your code is valid</string>
+    <string name="username">Username</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forget_password_hint">Please enter registered email to retrieve your password</string>
+    <string name="email_sent">Email for reset password has been sent, please check your email.</string>
+    <string name="invalid_email">Invalid email address</string>
+    <string name="empty_email">Enter email</string>
+    <string name="empty_full_name">Enter full name</string>
+    <string name="empty_phone">Enter phone number</string>
+
+    <!--Highlight-->
+    <string name="get_started">Get Started</string>
+
+    <!--Registration-->
+    <string name="registration">Registration</string>
+    <string name="user_name">User Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="contact_number">Mobile Number</string>
+    <string name="continue_btn">Continue</string>
+    <string name="done">Done</string>
+    <string name="thank_you">Thank You</string>
+    <string name="registration_failed">Registration Failed</string>
+    <string name="please_fill">Please fill all fields to continue</string>
+    <string name="password_mismatch">Password Mismatch</string>
+    <string name="add_payment_method">Add Payment Meth</string>
+
+    <string name="spinner_title">Pilih Kategori</string>
+
+
+    <!--Tabs String-->
+    <string name="home">Home</string>
+    <string name="deals">Deals</string>
+    <string name="orders">Orders</string>
+
+    <!--Profile-->
+    <string name="account_settings">Account Settings</string>
+    <string name="about">About</string>
+    <string name="website">Website</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="faq">faq</string>
+    <string name="rate_app">Rate this app</string>
+    <string name="terms">Terms &amp; privacy policy</string>
+    <string name="real_name">Real name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="notification">Notification</string>
+    <string name="change_password">Change Password</string>
+    <string name="log_out">Log out</string>
+    <string name="payment_cards">Payment Method</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_frm_gallery">Choose From Gallery</string>
+    <string name="change_password_success">Password successfully changed</string>
+
+
+    <!-- Runtime permission-->
+    <string name="permission_location_storage_rationale">Location permission is needed to use gps feature.</string>
+    <string name="action_grant_access">Grant Access</string>
+    <string name="permission_needed">Permission Needed</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="visited">Visited</string>
+    <string name="message_no_order_history">No history order found. \nMaybe this is the right time to make your first order :)</string>
+
+    <!--Alert-->
+    <string name="alert_gps_off">GPS is off.</string>
+    <string name="action_enable">Turn on</string>
+    <string name="action_last_location">Use last location</string>
+    <string name="alert_no_available_location">Last location isn\'t available</string>
+    <string name="alert_using_last_location">GPS is off. Using last location</string>
+    <string name="alert_logout_failed">Logout failed</string>
+    <string name="alert_no_internet_connection">No internet connection</string>
+    <string name="alert_no_data">Choose data to delete</string>
+    <string name="payment_alert">Please fill all fields</string>
+    <string name="payment_cardnumber_alert">Invalid Credit Card Number</string>
+    <string name="payment_expdate_alert">Invalid Expiry Date</string>
+    <string name="payment_cvv_alert">Invalid CVV</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="retype_new_password">Re-type New Password</string>
+
+
+    <!--Take Away Order-->
+    <string name="take_away">Take away</string>
+    <string name="by_myself">Grab By Myself</string>
+    <string name="by_uber">Uber</string>
+    <string name="by_grabbike">Grab bike</string>
+    <string name="proceed_tomenu">Proceed to menu</string>
+    <string name="proceed">Proceed</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="resend">Resend</string>
+    <string name="book">Book</string>
+    <string name="pay">Pay</string>
+    <string name="review_order">Review Order</string>
+    <string name="category_title">Category Title</string>
+    <string name="share">Share your code</string>
+    <string name="sms">sms</string>
+    <string name="share_code">JHG67</string>
+    <string name="menu_name">Menu name</string>
+    <string name="menu_desc">Menu</string>
+    <string name="note_here">Add note e.g no pepper, window seat.</string>
+    <string name="table_ready">Your table will be ready \n %1$s at %2$s</string>
+    <string name="order_wait">Order Sent</string>
+    <string name="order_declined">Order Declined</string>
+    <string name="order_expired">Order Expired</string>
+    <string name="decline_confirmation">Your order declined by restaurant manager</string>
+    <string name="expired_order_message">There\'s no response from the restaurant</string>
+    <string name="wait_confirmation">Please wait for restaurant manager confirmation</string>
+    <string name="friendly_tips">When you arrive just tell waiter your name</string>
+    <string name="payment_charged">Your payment has been automatically charged to your card</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Service &amp; Tax</string>
+    <string name="disc">Discount</string>
+    <string name="convenience_charge">Convenience Charge</string>
+    <string name="bank_charge">Bank Charge</string>
+    <string name="total">Total</string>
+    <string name="favorite_order">Favorite Order</string>
+    <string name="loading">Loading…</string>
+    <string name="error_no_connection_title">Unable to Connect</string>
+    <string name="error_no_connection">Please check your internet connection and try again</string>
+</resources>

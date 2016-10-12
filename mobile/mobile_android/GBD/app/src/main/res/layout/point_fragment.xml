@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context="com.bandung.disiplin.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/background">
+
+        <TextView
+            android:text="Poin Anda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView31"
+            android:textSize="36sp"
+            android:textColor="@color/colorGreyLight"
+            android:paddingTop="@dimen/cardMarginVertical"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            android:paddingBottom="@dimen/cardMarginVertical" />
+
+        <TextView
+            android:text="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView32"
+            android:textColor="@color/blackGreaterOpacity"
+            android:textSize="36sp"
+            tools:textSize="72sp"
+            android:textAlignment="center" />
+
+        <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:rating="3"
+            style="@style/RatingBar" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

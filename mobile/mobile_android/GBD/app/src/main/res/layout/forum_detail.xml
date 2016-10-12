@@ -1,0 +1,284 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    tools:context="com.bandung.disiplin.MainActivity">
+
+    <include layout="@layout/toolbar_color"
+        android:id="@+id/toolbar"></include>
+    <RelativeLayout
+        android:id="@+id/relContent2"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_below="@+id/toolbar">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <ImageView
+                android:id="@+id/ivRestaurant2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/image_desc"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cirebon_bg" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right|bottom"
+                android:background="@drawable/bg_gradient" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/dimen_8dp">
+
+                    <TextView
+                        android:id="@+id/tvRestaurantInitialName2"
+                        style="@style/TextMenuMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:text="@string/string_null"
+                        android:textColor="@color/background_gray"
+                        android:textSize="@dimen/text_24sp"
+                        android:textStyle="bold" />
+
+                    <com.passionit.apmcirebon.widget.rounded.RoundedImageView
+                        android:id="@+id/ivLogo2"
+                        android:layout_width="@dimen/dimen_64dp"
+                        android:layout_height="@dimen/dimen_64dp"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/image_desc"
+                        android:src="@mipmap/ava_f"
+                        android:visibility="gone"
+                        app:corner_radius="50dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:paddingBottom="8dp"
+                    android:paddingEnd="@dimen/dimen_16dp"
+                    android:paddingTop="@dimen/dimen_16dp"
+                    android:paddingRight="@dimen/dimen_16dp">
+
+                    <TextView
+                        android:id="@+id/tvRestaurantName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:text="Taman di Cirebon"
+                        android:textAllCaps="true"
+                        android:textColor="@color/windowBackground"
+                        android:textSize="@dimen/text_14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRestaurantType2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="3 jam yang lalu"
+                        android:textColor="@color/windowBackground"
+                        android:textSize="@dimen/text_14sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:weightSum="4">>
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3"
+            android:background="@null"
+            android:hint="Komentar "
+            android:lines="1"
+            android:paddingLeft="10dp" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="KIRIM"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempat wisata ini berada di Kelurahan Sunyaragi, Kesambi. Nama taman ini berasal dari dua kata bahasa Sansekerta yaitu ‘sunya’ yang berarti sepi dan ‘ragi’ yang berarti raga. Lokasi ini dahulu memang digunakan oleh raja dan keluarganya sebagai tempat mencari ketenangan."
+        android:id="@+id/textView22"
+        android:layout_below="@+id/relContent2"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView22"
+        android:layout_above="@+id/linearLayout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/linearLayout12"
+                android:layout_below="@+id/textView22"
+                android:layout_centerHorizontal="true"
+                android:background="#fff">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageView17"
+                    android:src="@mipmap/round" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/include2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/linearLayout7"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tempatnya asik!"
+                        android:id="@+id/textView23"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 jam yang lalu"
+                        android:id="@+id/textView24"
+                        android:textSize="9sp"
+                        android:textColor="#777" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"
+                android:layout_below="@+id/linearLayout12"
+                android:layout_centerHorizontal="true" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:id="@+id/linearLayout14"
+                android:background="#fff"
+                android:layout_below="@+id/linearLayout12"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/linearLayout">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageView18"
+                    android:src="@mipmap/ava_e" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/include2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/linearLayout13"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Seru"
+                        android:id="@+id/textView25"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1 jam yang lalu"
+                        android:id="@+id/textView26"
+                        android:textSize="9sp"
+                        android:textColor="#777" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ccc"
+                android:layout_below="@+id/linearLayout14"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

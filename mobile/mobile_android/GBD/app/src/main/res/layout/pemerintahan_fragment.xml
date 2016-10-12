@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--<com.github.ksoichiro.android.observablescrollview.ObservableScrollView-->
+            <!--android:id="@+id/scrollView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/material_view_pager_placeholder" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/cardMarginVertical"
+                    android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                    android:layout_marginRight="@dimen/cardMarginHorizontal"
+                    android:layout_marginTop="@dimen/cardMarginVertical"
+                    android:background="@android:color/white"
+                    app:cardElevation="4dp">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/movies_recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="vertical" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        <!--</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>-->
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            fab:menu_backgroundColor="#ccffffff"
+            fab:menu_fab_label="Cancel">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_fab_c"
+                fab:fab_label="Lapor Pemerinta"
+                fab:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_fab_d"
+                fab:fab_label="Laporan Swasta" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

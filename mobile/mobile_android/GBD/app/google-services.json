@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "845435476875",
+    "firebase_url": "https://gbdfirebaseproject.firebaseio.com",
+    "project_id": "gbdfirebaseproject",
+    "storage_bucket": "gbdfirebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845435476875:android:6e219c3f30f5f0b8",
+        "android_client_info": {
+          "package_name": "com.bandung.disiplin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845435476875-52pfhkd4c5j4nv7icrtrkg7qbv5h6rcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bandung.disiplin",
+            "certificate_hash": "D79975A0519D9DA149DBA47A7815798BA63309DF"
+          }
+        },
+        {
+          "client_id": "845435476875-om1hn366jeqn1nluv38uajq57juqkbbf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDYmRm-td_kyAdWKAmVxrNvMSeE16q3bg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845435476875-om1hn366jeqn1nluv38uajq57juqkbbf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

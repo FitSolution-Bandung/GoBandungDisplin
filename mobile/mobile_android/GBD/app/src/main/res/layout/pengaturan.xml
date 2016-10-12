@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout18">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Posting"
+            android:id="@+id/button2"
+            android:background="@null"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notifikasi"
+            android:id="@+id/button3"
+            android:background="@null"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Untuk Update"
+            android:id="@+id/button4"
+            android:background="@null"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Legal"
+            android:id="@+id/button5"
+            android:background="@null"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profil"
+            android:id="@+id/button6"
+            android:background="@null"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/button7"
+            android:background="@null"
+            android:textColor="#333"
+            android:textSize="15sp"
+            android:gravity="center|left"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView27"
+        android:layout_below="@+id/linearLayout18"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/background"
+        android:scaleType="fitXY" />
+</RelativeLayout>
